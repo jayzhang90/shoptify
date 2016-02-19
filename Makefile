@@ -1,4 +1,4 @@
-execute: challenge.cpp
-	g++ -o execute challenge.cpp
+execute: check.cpp
+	g++ -o execute check.cpp
 clean:
 	rm -f execute
